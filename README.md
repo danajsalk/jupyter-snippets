@@ -26,3 +26,9 @@ sns.set(style="darkgrid")
 
 * **Show Code Hide Code** - Creates an HTML formateed button to hide code kernals but leave open results, plots, or print statements. Very useful for building automated reports.
 * **List Comprehension** - A list comprehension in Python works by loading the entire output list into memory. For small or even medium-sized lists, this is generally fine.
+
+## Additional Jupyter Additions
+<br>
+new tab for `NBExtensions`
+`conda install -c conda-forge jupyter_contrib_nbextensions`
+
