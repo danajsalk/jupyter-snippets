@@ -27,8 +27,9 @@ sns.set(style="darkgrid")
 * **Show Code Hide Code** - Creates an HTML formateed button to hide code kernals but leave open results, plots, or print statements. Very useful for building automated reports.
 * **List Comprehension** - A list comprehension in Python works by loading the entire output list into memory. For small or even medium-sized lists, this is generally fine.
 
-## Additional Jupyter Additions
+## Additional Jupyter Extenstions
 <br>
 new tab for `NBExtensions`
 `conda install -c conda-forge jupyter_contrib_nbextensions`
 
+Just select the `ExecutionTime` extension from the `NBextensions` list and you will have an execution result at the bottom of the cell after every cell execution as well as the time when the cell was executed.
