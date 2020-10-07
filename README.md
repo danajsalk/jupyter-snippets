@@ -29,7 +29,8 @@ sns.set(style="darkgrid")
 
 ## Additional Jupyter Extenstions
 <br>
-new tab for `NBExtensions`
-`conda install -c conda-forge jupyter_contrib_nbextensions`
+new tab for `NBExtensions` 
+
+run the line: `conda install -c conda-forge jupyter_contrib_nbextensions`
 
 Just select the `ExecutionTime` extension from the `NBextensions` list and you will have an execution result at the bottom of the cell after every cell execution as well as the time when the cell was executed.
