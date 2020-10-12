@@ -20,6 +20,14 @@ Automatically Format Graphs with Seaborn
  
 sns.set(style="darkgrid")
 ```
+Format Dates in Pandas Columns
+```
+import pandas as pd
+df = pd.DataFrame({'DOB': {0: '26/1/2016', 1: '26/1/2016'}}) 
+df['DOB'] = pd.to_datetime(df.DOB)
+df['DOB1'] = df['DOB'].dt.strftime('%m/%d/%Y')
+```
+
 
 ## Descriptions
 <br>
