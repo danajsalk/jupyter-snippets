@@ -14,10 +14,9 @@ pd.set_option('display.width',1000)
 pd.set_option('max_colwidth', 500)
 ```
 
-Automatically Format Graphs with Seaborn 
+Automatically Format Graphs with Seaborn such as automatically adding grids
 ```
-#import seaborn as sns
- 
+import seaborn as sns
 sns.set(style="darkgrid")
 ```
 Format Dates in Pandas Columns
